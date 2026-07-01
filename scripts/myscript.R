@@ -7,4 +7,11 @@ ggplot(complete_old, aes(x = hindfoot_length, y = weight)) +
 
 # Make a comment
 ggplot(complete_old, aes(x = hindfoot_length, y = weight, color = species)) +
-  geom_point()
+  geom_point() 
+
+#disappear 500 rats from the data 
+ggplot(complete_old, aes(x = hindfoot_length, y = weight, color = species)) +
+  geom_point(color = "blue") 
+  
+  
+  
